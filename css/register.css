@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section1{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../Images/back2.jpg);
+    background-size: 100% 100%;
+    overflow: auto;
+}
+
+.header{
+    height: 70px;
+    padding: 0 150px;
+    margin-top: 50px;
+}
+
+.logo{
+    width: 270px;
+    height: 80px;
+    line-height: 70px;
+}
+
+.navbar-toggler{
+    border: 1px solid;
+    color: rgb(248,249,250);
+}
+
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+
+.navbar-toggler[aria-expanded=true] {
+    border-width: 2px;
+    color: rgb(222, 173, 61);
+}
+
+nav ul{
+    margin-left: auto;
+}
+
+nav ul li{
+    margin-left: 70px;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.nav-link{
+    height: 30px;
+    line-height: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+.nav-link:hover{
+    color: rgb(222, 173, 61);
+}
+
+.box{
+    margin: auto;
+    width: 600px;
+    height: 180px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 200px;
+    text-align: center;
+    padding: 30px 10px;
+}
+
+.box p{
+    font-weight: bold;
+    font-size: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: -webkit-radial-gradient( rgb(156,121,69), rgb(220,204,138));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.box button{
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    padding: 5px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    border: 1px solid white;
+    text-transform: uppercase;
+}
+
+.box button:hover{
+    background-color: white;
+    color: rgb(222, 173, 61);
+}
+
+
+
+
+
+.section2{
+    width: 100%;
+    min-height: 400px;
+    margin-left: 0;
+}
+
+.half{
+    padding: 80px 100px;
+    border: 2px solid rgb(15,27,39);
+}
+
+.half:first-child{
+    background-image: url(../Images/footer.png);
+    background-size: 100% 100%;
+    color: white;
+}
+
+.half:nth-child(2){
+    background-color: white;
+    color:  rgb(222, 173, 61);
+}
+
+.half-content{
+    margin: auto;
+    width: 60%;
+}
+
+.half-content p{
+    margin-top: 30px;
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+.half-content{
+    margin: auto;
+    width: 70%;
+}
+
+.half-content button{
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    padding: 5px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    border: 1px solid white;
+    text-transform: uppercase;
+}
+
+.half:nth-child(2) .half-content button{
+    color: rgb(222, 173, 61);
+    border: 1px solid rgb(222, 173, 61);
+}
+
+.half:nth-child(2) .half-content button:hover{
+    background-color: rgb(222, 173, 61);
+    color: white;
+}
+
+.half-content button:hover{
+    background-color: white;
+    color: rgb(222, 173, 61);
+}
+
+
+
+.image-section{
+    width: 100%;
+    height: 500px;
+    background-image: url(../Images/back1.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+
+
+
+
+
+.footer{
+    width: 100%;
+    min-height: 450px;
+    padding: 70px 120px 40px;
+    background-image: url(../Images/footer.png);
+    background-size: 100% 100%;
+    margin-left: 0;
+}
+
+.footer div{
+    margin-bottom: 30px;
+}
+
+.contact{
+    color: white;
+    height: fit-content;
+}
+
+.footer p{
+   font-size: 24px;
+}
+
+ hr{
+    width: 170px;
+    background-color: white;
+    opacity: 1;
+    margin-top: -6px;
+}
+
+.footer ul{
+    list-style: none;
+    margin-left: -28px;
+    font-weight: lighter;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.footer ul li{
+    margin-bottom: -15px;
+}
+
+
+.information{
+    color: white;
+    height: fit-content;
+}
+
+.information i{
+    font-size: 30px;
+    margin-right: 15px;
+    opacity: 0.7;
+    cursor: pointer;
+    margin-top: 25px;
+}

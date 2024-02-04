@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Shop</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/all.css">
+        <link rel="stylesheet" href="css/shop.css">
+
+    </head>
+
+    <body>
+
+        <div class="header">
+
+            <nav class="navbar navbar-expand-md">
+                <img class="logo navbar-brand" src="Images/logo2.png" alt="">
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-button">
+                    <span><i class="fas fa-bars text-light"></i></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="nav-button">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href=""><i class="fas fa-user"></i> <span></span> </a></li>
+                        <li class="nav-item"><a class="nav-link cartt" href=""><i class="fas fa-shopping-cart cart-icon"><div class="counter"></div></i><i class="fas fa-sort-down down ms-3"></i><i class="fas fa-sort-up up ms-3" style="display:none;"></i></a></li>
+                        
+                        <li class="nav-item"><a class="nav-link" href="index.html">Logout</a></li>
+                    </ul>
+                </div>
+
+
+                <div class="cartContainer" style="display: none;">
+                    <div class="cartItems">
+                    </div>
+
+                    <hr>
+                    <a href="cart.html">View Cart Products</a>
+                </div>
+                
+            </nav>
+        </div>
+
+
+
+        <div class="search row">
+            <div class="searchBy">
+                <select>
+                    <!-- <option disabled selected hidden>Search by:</option> -->
+                    <option>Search by Name</option>
+                    <option>Search by Category</option>
+                </select>
+            </div>
+
+            <div class="searchValue">
+                <input type="text" placeholder="Name:" >
+                
+                <select style="display: none;">
+                    <option disabled selected hidden>Category:</option>
+                    <option>Beds</option>
+                    <option>Chairs</option>
+                    <option>Sofas</option>
+                    <option>Tables</option>
+                </select>
+            </div>
+        </div>
+
+
+        <div class="container">
+            <div class="prods row justify-content-between">
+            </div>
+        </div>
+            
+        
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/shop.js"></script>
+    </body>
+</html>
